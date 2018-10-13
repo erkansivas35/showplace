@@ -9,7 +9,7 @@
         <p>Buradan sonra nereye gideceğini bul.</p>
       </div>
       <div class="button">
-        <a href="#">BAŞLA</a>
+        <router-link to="/age">BAŞLA</router-link>
       </div>      
     </div>
   </div>
@@ -32,16 +32,6 @@ export default {
   align-items: center;
   justify-content: center;
 
-  .overlay {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: rgba(125, 64, 230, 0.16);
-    z-index: 0;
-  }
-
   .container {
     display: flex;
     flex-direction: column;
@@ -54,9 +44,9 @@ export default {
       margin-bottom: 10px;
 
       h1 {
-      font-size: 64px;
-      margin: 0;
-    }
+        font-size: 64px;
+        margin: 0;
+      }
     }
 
     & .content {
