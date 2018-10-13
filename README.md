@@ -1,4 +1,6 @@
-# showplace
+## Showplace
+
+Live View: [https://showplace.herokuapp.com/](https://showplace.herokuapp.com/ "Live View") 
 
 ## Project setup
 ```
