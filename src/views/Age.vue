@@ -1,12 +1,11 @@
 <template>
   <div class="age">
-    <div class="place-image-wrap">
-      <div class="overlay"></div>
-    </div>
+    <LeftImage />
+
     <div class="content-wrap">
       <div class="container">
           <div class="title">
-            <h1>KİŞİSEL BİLGİLER</h1>
+            <h1>YAŞINIZ</h1>
           </div>
           <div class="content">
             <div class="ask-age">
@@ -23,7 +22,7 @@
             </div>
           </div>
           <div class="button">
-            <router-link to="/age" :class="{'disable': howAge == ''}">DEVAM</router-link>
+            <router-link to="/gender" :class="{'disable': howAge == ''}">DEVAM</router-link>
           </div>
       </div>
     </div>
@@ -31,13 +30,16 @@
 </template>
 
 <script>
+import LeftImage from '@/components/LeftImage';
+
 export default {
-  name: "Age",
+  name: "age",
   data() {
     return {
       howAge: ""
     };
-  }
+  },
+  components: { LeftImage }
 };
 </script>
 

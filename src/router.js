@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Age from "./views/Age.vue";
+import Gender from "./views/Gender.vue";
 
 Vue.use(Router);
 
@@ -12,13 +13,20 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
+      meta: { transitionName: 'slide' }
     },
     {
       path: "/age",
       name: "age",
       component: Age,
-      meta: { transitionName: 'slide' },
+      meta: { transitionName: 'slide' }
+    },
+    {
+      path: "/gender",
+      name: "gender",
+      component: Gender,
+      meta: { transitionName: 'slide' }
     }
   ]
 });
