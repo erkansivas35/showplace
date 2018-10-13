@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="button">
-            <router-link to="/smile" :class="{'disable': howSmile == ''}">DEVAM</router-link>
+            <router-link to="/guide" :class="{'disable': howSmile == ''}">DEVAM</router-link>
           </div>
       </div>
     </div>
