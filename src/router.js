@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Age from "./views/Age.vue";
 import Gender from "./views/Gender.vue";
+import Smile from "./views/Smile.vue";
 
 Vue.use(Router);
 
@@ -26,6 +27,12 @@ export default new Router({
       path: "/gender",
       name: "gender",
       component: Gender,
+      meta: { transitionName: 'slide' }
+    },
+    {
+      path: "/smile",
+      name: "smile",
+      component: Smile,
       meta: { transitionName: 'slide' }
     }
   ]

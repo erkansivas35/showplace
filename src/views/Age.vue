@@ -1,5 +1,5 @@
 <template>
-  <div class="age">
+  <div class="survey">
     <LeftImage />
 
     <div class="content-wrap">
@@ -46,7 +46,7 @@ export default {
 <style lang="scss">
 @import "../assets/css/responsive-mixin.scss";
 
-.age {
+.survey {
   height: 100vh !important;
   display: flex;
   overflow: hidden;

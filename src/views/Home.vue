@@ -6,7 +6,9 @@
         <h1>AYASOFYA</h1>
       </div>
       <div class="content">
-        <p>Buradan sonra nereye gideceğini bul.</p>
+        <p>Hey Merhaba,<br /> 
+        Anketimize şimdi katıl ve sana <br />
+        buradan sonra nereye gideceğini söyleyelim.</p>
       </div>
       <div class="button">
         <router-link to="/age">BAŞLA</router-link>
@@ -41,7 +43,7 @@ export default {
     color: #fff;
 
     & .title {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
 
       h1 {
         font-size: 64px;
@@ -53,7 +55,8 @@ export default {
       margin-bottom: 60px;
 
       p {
-        font-size: 24px;
+        text-align: center;
+        font-size: 26px;
         margin: 0;
       }
     }

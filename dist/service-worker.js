@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1141a8ec685c62aa6b99cbd84440e993.js"
+  "/precache-manifest.bef0cf69f57370d878e74ee70067810c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "showplace"});

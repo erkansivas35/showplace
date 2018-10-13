@@ -1,5 +1,5 @@
 <template>
-  <div class="age">
+  <div class="survey">
     <LeftImage />
 
     <div class="content-wrap">
@@ -22,7 +22,7 @@
             </div>
           </div>
           <div class="button">
-            <router-link to="/gender" :class="{'disable': howGender == ''}">DEVAM</router-link>
+            <router-link to="/smile" :class="{'disable': howGender == ''}">DEVAM</router-link>
           </div>
       </div>
     </div>
