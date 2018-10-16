@@ -61,6 +61,7 @@ export default {
 html,
 body {
   font-family: "Oswald", sans-serif;
+  overflow: hidden;
 }
 
 .slide-left-enter-active,
