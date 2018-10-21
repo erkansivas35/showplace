@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="button">
-            <router-link to="/discovery" :class="classBind()">DEVAM</router-link>
+            <router-link to="/result" :class="classBind()">DEVAM</router-link>
           </div>
       </div>
     </div>

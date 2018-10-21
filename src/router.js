@@ -7,6 +7,7 @@ import Smile from "./views/Smile.vue";
 import Guide from "./views/Guide.vue";
 import Restoration from "./views/Restoration.vue";
 import Discovery from "./views/Discovery.vue";
+import Result from "./views/Result.vue";
 
 Vue.use(Router);
 
@@ -54,6 +55,12 @@ export default new Router({
       path: "/discovery",
       name: "Discovery",
       component: Discovery,
+      meta: { transitionName: 'slide' }
+    },
+    {
+      path: "/result",
+      name: "Result",
+      component: Result,
       meta: { transitionName: 'slide' }
     }
   ]
