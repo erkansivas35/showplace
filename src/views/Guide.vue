@@ -35,7 +35,7 @@
             </div>
           </div>
           <div class="button">
-            <router-link to="/guide" :class="classBind()">DEVAM</router-link>
+            <router-link to="/restoration" :class="classBind()">DEVAM</router-link>
           </div>
       </div>
     </div>

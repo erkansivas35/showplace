@@ -5,6 +5,8 @@ import Age from "./views/Age.vue";
 import Gender from "./views/Gender.vue";
 import Smile from "./views/Smile.vue";
 import Guide from "./views/Guide.vue";
+import Restoration from "./views/Restoration.vue";
+import Discovery from "./views/Discovery.vue";
 
 Vue.use(Router);
 
@@ -40,6 +42,18 @@ export default new Router({
       path: "/guide",
       name: "guide",
       component: Guide,
+      meta: { transitionName: 'slide' }
+    },
+    {
+      path: "/restoration",
+      name: "Restoration",
+      component: Restoration,
+      meta: { transitionName: 'slide' }
+    },
+    {
+      path: "/discovery",
+      name: "Discovery",
+      component: Discovery,
       meta: { transitionName: 'slide' }
     }
   ]
